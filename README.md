@@ -12,7 +12,7 @@ const [profile, setProfile] = useState<profileType[]>([]);
 ```typescript
 function sum(a:number,b:number){
   const sum = a+b;
-  return `${a}와${b}의 합은 ${sum}`;
+  return `${a} plus ${b} sum= ${sum}`;
 }
 ```
 
