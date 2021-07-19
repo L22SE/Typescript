@@ -1,5 +1,4 @@
-# Typescript
-
+## EX
 ```typescript
 export type profileType = {
   name: string;
