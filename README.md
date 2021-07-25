@@ -40,12 +40,12 @@ interface information {
 
 interface profile extends information{
   hobby:string,
-  profile-color: 'red'|'blue'
+  profile_color: 'red'|'blue'
 }
 
 const My : profile ={
   name:'lee',
-   profile-color: 'red'
+  profile_color: 'red'
 }
 
 ```
