@@ -21,3 +21,32 @@ function sum(a:number,b:number){
 let tuple :[type..][];
 tuple = [[typeValue],[typeValue]];
 ```
+
+## EX 4 interface
+```typescript
+interface information {
+  name:string,
+  addr:string,
+  num:number
+}
+```
+## EX 5 interface extends
+```typescript
+interface information {
+  name:string,
+  addr:string,
+  num:number
+}
+
+interface profile extends information{
+  hobby:string,
+  profile-color: 'red'|'blue'
+}
+
+const My : profile ={
+  name:'lee',
+   profile-color: 'red'
+}
+
+```
+
